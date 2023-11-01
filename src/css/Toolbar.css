@@ -1,0 +1,17 @@
+.filters {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+.filter {
+    transition: background-color .3s;
+    padding: 5px 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    color: #242424;
+}
+
+.filter:hover {
+    color: #f9f9f9;
+    background-color: #242424c9;
+}

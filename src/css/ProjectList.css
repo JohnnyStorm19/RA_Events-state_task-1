@@ -1,0 +1,17 @@
+.projectlist-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    align-items: center;
+    justify-items: left;
+    grid-auto-flow: row;
+}
+
+.project-box img {
+    max-width: 100%;
+    transition: scale .3s ease-in;
+}
+
+.project-box img:hover {
+    scale: 1.1;
+}
