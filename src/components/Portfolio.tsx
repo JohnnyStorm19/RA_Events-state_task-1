@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { ProjectList } from "./ProjectList.tsx";
-import { Toolbar } from "./Toolbar.tsx";
+import { ProjectList } from "./ProjectList";
+import { Toolbar } from "./Toolbar";
 
 export function Portfolio() {
     const [toolbarState, setToolbarState] = useState('All');

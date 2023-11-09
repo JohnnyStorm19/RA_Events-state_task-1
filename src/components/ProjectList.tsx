@@ -22,6 +22,7 @@ export function ProjectList({category}: IProjectListProps) {
                         </div>
                     )
                 }
+                return null
             })}
         </div>
     )
